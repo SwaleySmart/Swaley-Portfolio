@@ -20,6 +20,7 @@ get_header();
         <a href="#aboutme" class="btn btn-primary mx-1 text-uppercase">About Me</a>
         <a href="#portfolio" class="btn btn-primary mx-1 text-uppercase">Portfolio</a>
         <a href="#testimonials" class="btn btn-primary mx-1 text-uppercase">Testimonials</a>
+        <a href="https://github.com/SwaleySmart/Swaley-Portfolio" target="_blank" class="btn btn-primary mx-1 text-uppercase"><span class="fa fa-github"></span></a>
     </div>
 </div>
 
