@@ -5,6 +5,12 @@
  * @package UnderStrap
  */
 
+// Load custom google fonts
+function custom_add_google_fonts() {
+	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway&display=swap', false );
+	}
+	add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
+
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
